@@ -4,8 +4,8 @@ using namespace std;
 int main()
 {
    int numRows;
-   cut << "Enter a number \n";
-   cin >> numRows
+   cout << "Enter a number \n";
+   cin >> numRows;
 
    if (numRows <= 0){
       cout << "Number of rows must be postive." << endl;
