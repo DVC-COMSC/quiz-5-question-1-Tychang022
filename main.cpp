@@ -3,7 +3,21 @@ using namespace std;
 
 int main()
 {
-   
-   /* Complete your code */
-  
+   int numRows;
+   cut << "Enter a number \n";
+   cin >> numRows
+
+   if (numRows <= 0){
+      cout << "Number of rows must be postive." << endl;
+      exit(0);
+   }
+   for (int i = 1; i <= numRows; ++i){
+      char letter = 'A';
+      for (int i = 1; i <= numRows; ++i){
+         cout << letter << " ";
+         letter++;
+      }
+      cout << endl;
+   }
+   return 0;
 }
