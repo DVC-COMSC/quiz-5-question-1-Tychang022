@@ -11,9 +11,9 @@ int main()
       cout << "Number of rows must be postive." << endl;
       exit(0);
    }
-   for (int i = 1; i <= numRows; ++i){
+   for (int i = 1; i <= numRows; i++){
       char letter = 'A';
-      for (int i = 1; i <= numRows; ++i){
+      for (int j = 1; i <= numRows; j++){
          cout << letter << " ";
          letter++;
       }
