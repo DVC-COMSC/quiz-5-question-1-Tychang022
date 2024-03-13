@@ -13,7 +13,7 @@ int main()
    }
    for (int i = 1; i <= numRows; i++){
       char letter = 'A';
-      for (int j = 1; i <= numRows; j++){
+      for (int j = 1; j <= i; j++){
          cout << letter << " ";
          letter++;
       }
